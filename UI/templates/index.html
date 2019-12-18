@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Capture - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700" rel="stylesheet">
+    <link rel="stylesheet" href="{{ static_url('css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{ static_url('css/style.css')}}">
+  </head>
+  <body>
+
+	<div id="colorlib-page">
+		
+		<aside id="colorlib-aside" role="complementary" class="js-fullheight text-center">
+			<h1 id="colorlib-logo"><a href="index.html"><span class="flaticon-camera"></span>Find your celebrity match!</a></h1>
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<input type="file" id="image_input" class="custom-file-input" >
+					<button type="button" class="btn btn-primary" id="upload">Upload</button>
+				</ul>
+			</nav>
+		</aside> <!-- END COLORLIB-ASIDE -->
+
+		<div id="colorlib-main">
+			<section class="ftco-section-2">
+				<div class="photograhy">
+					<div class="container">
+
+					  <hr class="mt-2 mb-5">
+
+					  <div class="row text-center text-lg-left">
+
+						    <div class="col-lg-3 col-md-4 col-6">
+						      <a href="#" class="d-block mb-4 h-100">
+						            <img id="main_picture" class="img-fluid img-thumbnail" src="{{ static_url('images/default.jpg')}}" alt="" height="400" width="300">
+						          </a>
+						    </div>
+					    </div>
+					    <div class="row" id="match_title">
+					    	<div class="col-lg-3 col-md-4 col-6">
+						      Matches
+						    </div>
+					    </div>
+					    <div class="row" id="matches">
+						    <div class="col-lg-3 col-md-4 col-6">
+						      <a href="#" class="d-block mb-4 h-100">
+						            <img id="picture_0" class="img-fluid img-thumbnail" alt="" height="400" width="300">
+						            <span id="name_0"></span>
+						          </a>
+						        
+						    </div>
+						    <div class="col-lg-3 col-md-4 col-6">
+						      <a href="#" class="d-block mb-4 h-100">
+						            <img id="picture_1" class="img-fluid img-thumbnail" alt="">
+						            <span id="name_1"></span>
+						          </a>
+						        
+						    </div>
+						    <div class="col-lg-3 col-md-4 col-6">
+						      <a href="#" class="d-block mb-4 h-100">
+						            <img id="picture_2" class="img-fluid img-thumbnail" alt="">
+						            <span id="name_2"></span>
+						          </a>
+						        
+						    </div>
+						    <div class="col-lg-3 col-md-4 col-6">
+						      <a href="#" class="d-block mb-4 h-100">
+						            <img id="picture_3" class="img-fluid img-thumbnail" alt="">
+						            <span id="name_3"></span>
+						          </a>
+						        
+						    </div>
+						    <div class="col-lg-3 col-md-4 col-6">
+						      <a href="#" class="d-block mb-4 h-100">
+						            <img id="picture_4" class="img-fluid img-thumbnail" alt="">
+						            <span id="name_4"></span>
+						          </a>
+						    </div>
+					  </div>
+
+					</div>
+				</div>
+			</section>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
+
+  <script src="{{ static_url('js/jquery.min.js')}}"></script>
+  <script src="{{ static_url('js/jquery-migrate-3.0.1.min.js')}}"></script>
+  <script src="{{ static_url('js/bootstrap.min.js')}}"></script>
+  <script type="text/javascript" src="{{ static_url('js/upload.js')}}"></script>
+  </body>
+</html>
