@@ -1,4 +1,4 @@
-Visual Similarity
+## Visual Similarity ##
 
 The repository comprises of notebooks that evaluate different models for image similarity.
 The UI folder consist of a Tornado based application that finds the top 5 celebrity matches for a given input image.
